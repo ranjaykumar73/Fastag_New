@@ -682,7 +682,7 @@ export default function FastagForm({ categoryKey }) {
     };
 
     return (
-        <section className="py-5 px-4 md:px-0 max-w-7xl mx-auto">
+        <section className="py-5 px-4 md:px-0 max-w-6xl mx-auto">
             <ToastContainer position="top-center" />
             <div className="grid md:grid-cols-2">
                 <div className="">
@@ -691,8 +691,8 @@ export default function FastagForm({ categoryKey }) {
                         <span className="text-[#00186b] ">FASTag Bill </span>
                     </h2>
                     <Image
-                        className=""
-                        src="/user/bill.jpg"
+                        className="rounded-xl shadow-xl md:mt-8"
+                        src="/image/billpay.jpg"
                         width={500}
                         height={600}
                         alt="FASTag bill payment"

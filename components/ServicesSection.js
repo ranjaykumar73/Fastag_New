@@ -9,7 +9,7 @@ export default function ServicesSection() {
       <section className="bg-gradient-to-br from-[#f8fbff] to-[#f5f7fb] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Section header */}
-          <div className="text-left mb-4 max-w-7xl mx-auto">
+          <div className="text-left mb-4 max-w-6xl mx-auto">
             <p className="text-sm font-semibold tracking-[0.2em] uppercase text-[#0060c9] mb-4">
               Services
             </p>

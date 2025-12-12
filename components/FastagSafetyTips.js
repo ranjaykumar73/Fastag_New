@@ -34,7 +34,7 @@ export default function SafetyTips() {
           Follow these simple precautions for secure and smooth toll payments.
         </p>
 
-        <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="mt-10 grid max-w-5xl mx-auto sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {tips.map((t) => (
             <div
               key={t.title}

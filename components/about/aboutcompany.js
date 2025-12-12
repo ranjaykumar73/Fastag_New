@@ -10,7 +10,7 @@ import { FiTarget } from "react-icons/fi";
 export default function AboutCompanyOverview() {
   return (
        <section className="w-full py-16 px-4  bg-linear-to-br from-gray-50 to-white">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
 
         {/* Left Section - Overview */}
         <motion.div
@@ -51,7 +51,7 @@ export default function AboutCompanyOverview() {
         >
           <div className="relative">
             <Image
-              src="/user/car3.jpg" 
+              src="/image/traffic.jpg" 
               alt="FASTag Services"
               width={400}
               height={500}

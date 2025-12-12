@@ -31,7 +31,7 @@ export default function Whyus() {
 ];
     return (
         <>
-            <section className="py-10 px-4  max-w-7xl mx-auto">
+            <section className="py-10 max-w-6xl mx-auto">
 
 
                 <div className="mt-5 grid grid-cols-1 md:grid-cols-2  items-center">

@@ -18,7 +18,7 @@ export default function FAQSection({
   };
 
   return (
-    <section className="py-10 bg-white max-w-7xl mx-auto px-4 lg:px-0">
+    <section className="py-10 bg-white max-w-6xl mx-auto px-4 lg:px-0">
       <div className="flex flex-col md:flex-row items-center gap-12">
         {/* Left Side */}
         <div className="md:w-2/5">
@@ -77,7 +77,7 @@ export default function FAQSection({
               {/* Answer */}
               <div
                 className={`px-6 overflow-hidden transition-all duration-300 ${
-                  openIndex === index ? "max-h-40 py-4" : "max-h-0"
+                  openIndex === index ? "max-h-60 py-4" : "max-h-0"
                 } ${
                   openIndex === index
                     ? "bg-gradient-to-r from-[#00186b] to-[#fa9404] text-white/90"

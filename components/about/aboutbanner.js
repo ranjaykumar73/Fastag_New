@@ -78,7 +78,7 @@ export default function AboutHeroSection() {
 
             <div className="absolute inset-1 rounded-2xl overflow-hidden">
               <Image
-                src="/user/car1.jpg"
+                src="/image/bridge.jpg"
                 alt="FASTag Services"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
