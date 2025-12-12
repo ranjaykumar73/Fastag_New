@@ -44,15 +44,15 @@ export default function Homepage() {
     const [activeTab, setActiveTab] = useState('echallan');
     const [fastagNumber, setFastagNumber] = useState('');
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        setIsSearching(true);
-        // Simulate API call
-        setTimeout(() => {
-            setIsSearching(false);
-            onSubmit({ type: activeTab, [activeTab === 'echallan' ? 'vehicleNumber' : 'fastagNumber']: activeTab === 'echallan' ? vehicleNumber : fastagNumber });
-        }, 2000);
-    };
+    // const handleSubmit = (e) => {
+    //     e.preventDefault();
+    //     setIsSearching(true);
+    //     // Simulate API call
+    //     setTimeout(() => {
+    //         setIsSearching(false);
+    //         onSubmit({ type: activeTab, [activeTab === 'echallan' ? 'vehicleNumber' : 'fastagNumber']: activeTab === 'echallan' ? vehicleNumber : fastagNumber });
+    //     }, 2000);
+    // };
 
     useEffect(() => {
         const id = setInterval(
@@ -136,7 +136,7 @@ export default function Homepage() {
                                 </button>
                             </div>
 
-                            <form onSubmit={handleSubmit} className="space-y-5 sm:space-y-6">
+                            <div  className="space-y-5 sm:space-y-6">
                                 {/* e-Challan Form */}
                                 {activeTab === 'echallan' && (
                                     <div>
@@ -202,7 +202,7 @@ export default function Homepage() {
                                 )}
 
                                 {/* Submit Button */}
-                                <button
+                                {/* <button
                                     type="submit"
                                     disabled={isSearching}
                                     className="w-full group relative overflow-hidden bg-gradient-to-r from-blue-600 to-blue-700 data-[tab=fastag]:from-orange-500 data-[tab=fastag]:to-orange-600 hover:from-blue-700 hover:to-blue-800 data-[tab=fastag]:hover:from-orange-600 data-[tab=fastag]:hover:to-orange-700 disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold py-3.5 sm:py-4 px-4 sm:px-6 rounded-2xl text-base sm:text-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-[1.02] focus:outline-none focus:ring-4 focus:ring-blue-500/30 data-[tab=fastag]:focus:ring-orange-500/30"
@@ -229,15 +229,13 @@ export default function Homepage() {
                                             </>
                                         )}
                                     </div>
-
-                                    {/* Gradient shine effect */}
                                     <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12 transform -translate-x-[100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
-                                </button>
+                                </button> */}
 
                                 <p className="text-xs text-center text-gray-500 pt-3 sm:pt-4 opacity-75">
                                     🔒 Secure • Powered by Finunique Small Private Limited
                                 </p>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>

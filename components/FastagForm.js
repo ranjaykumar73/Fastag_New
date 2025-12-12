@@ -747,10 +747,10 @@ export default function FastagForm({ categoryKey }) {
     };
 
     return (
-        <section className="py-5 px-4 md:px-0 max-w-7xl mx-auto">
+        <section className="py-0 px-4 md:px-0 max-w-7xl mx-auto">
             <ToastContainer position="top-center" />
-            <div className="grid md:grid-cols-2">
-                <div className="">
+            <div className="grid md:grid-cols-1">
+                {/* <div className="">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight pb">
                         Get your <br />
                         <span className="text-[#00186b] ">FASTag Bill </span>
@@ -762,8 +762,8 @@ export default function FastagForm({ categoryKey }) {
                         height={600}
                         alt="FASTag bill payment"
                     />
-                </div>
-                <div className="mt-10 p-6 bg-white rounded-2xl shadow-md h-fit relative">
+                </div> */}
+                <div className="p-6 bg-white rounded-2xl shadow-md h-fit relative">
                     {loading ? (
                         <div className="flex justify-center items-center h-40">
                             <FaSpinner className="animate-spin text-4xl text-gray-600" />
@@ -821,7 +821,7 @@ export default function FastagForm({ categoryKey }) {
                                 </div>
                             )}
                             {/* Buttons */}
-                            <div className="flex gap-3">
+                            <div className="flex gap-3 mt-3">
                                 {!submitted ? (
                                     <button
                                         type="submit"
