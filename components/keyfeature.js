@@ -12,8 +12,8 @@ const keyFeatures = [
 
 export default function WalletKeyFeatures() {
   return (
-    <section className="py-12">
-      <div className="max-w-7xl mx-auto px-4">
+    <section className="md:py-10 py-6">
+      <div className="max-w-6xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold mb-10">
           <span className="text-[#09343D]">Key</span>{" "}
           <span className="text-[#ff6f00]">Features</span>

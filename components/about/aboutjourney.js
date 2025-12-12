@@ -28,7 +28,7 @@ const milestones = [
 
 
   return (
-   <section className="max-w-7xl mx-auto py-16 px-4 ">
+   <section className="max-w-6xl mx-auto py-16">
 
           <h1 className="text-5xl font-extrabold mt-2 leading-tight text-[#00186b]">
          About Our Services

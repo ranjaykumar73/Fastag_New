@@ -77,7 +77,7 @@ export default function page() {
     return (
         <>
             <section className="w-full bg-white py-12 md:py-16 overflow-hidden">
-                <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-4 md:px-0 gap-10">
+                <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-4 md:px-0 gap-10">
                     {/* Left Text Section */}
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
@@ -138,15 +138,15 @@ export default function page() {
                         viewport={{ once: true }}
                         className="md:w-1/2 relative"
                     >
-                        <div className="relative w-[600px] h-[400px] rounded-2xl overflow-hidden group">
+                        <div className="relative w-[400px] h-[400px] rounded-2xl overflow-hidden group">
                             <span className="absolute inset-0 rounded-2xl border-4 border-transparent bg-[conic-gradient(from_0deg,#fa9404_0%,transparent_100%)] animate-spin-slow group-hover:animate-spin-fast"></span>
 
                             <div className="absolute inset-1 rounded-2xl overflow-hidden">
                                 <Image
-                                    src="/user/car1.jpg"
+                                    src="/image/challan-min.jpg"
                                     alt="e‑Challan and FASTag services"
                                     fill
-                                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                                    className="object-contain transition-transform duration-700 group-hover:scale-105"
                                 />
                             </div>
                         </div>
@@ -160,7 +160,7 @@ export default function page() {
 
             <section className="max-w-7xl mx-auto my-20 px-4 sm:px-6 md:px-8">
                 <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                    About <span className="text-[#0060c9]">e‑Challan</span> & FASTag
+                    About <span className="text-[#fa9404]">e‑Challan</span> & FASTag
                 </h2>
 
                 <div className="flex flex-col md:flex-row gap-6 sm:gap-8">
@@ -191,11 +191,11 @@ export default function page() {
                     </div>
 
                     {/* Right Card */}
-                    <div className="flex-1 w-full bg-[#013b70] rounded-lg p-5 sm:p-6 md:p-8 text-white max-w-full md:max-w-[600px]">
-                        <h3 className="font-bold text-base sm:text-lg md:text-xl mb-3 leading-snug">
+                    <div className="flex-1 w-full bg-orange-100 rounded-lg p-5 sm:p-6 md:p-8 text-white max-w-full md:max-w-[600px]">
+                        <h3 className="font-bold text-base text-gray-900 sm:text-lg md:text-xl mb-3 leading-snug">
                             Seamless FASTag and e‑Challan in one place
                         </h3>
-                        <p className="text-xs sm:text-sm md:text-[14px] leading-relaxed text-white/90">
+                        <p className="text-xs sm:text-sm md:text-[14px] leading-relaxed text-gray-800">
                             Fastpaysave connects FASTag wallets and state traffic systems to give
                             vehicle owners a single, unified experience. Check pending e‑Challans
                             by vehicle number, recharge FASTag with UPI or cards, and view toll
@@ -210,7 +210,7 @@ export default function page() {
             </section>
 
             <WalletKeyFeatures />
-            <section className="max-w-7xl mx-auto px-4 my-10">
+            <section className="max-w-6xl mx-auto my-10">
                 {/* Heading */}
                 <h2 className="text-2xl md:text-3xl font-bold mb-3">
                     <span className="text-[#09343D]">Our</span>{" "}

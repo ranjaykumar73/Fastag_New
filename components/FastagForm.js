@@ -10,17 +10,17 @@ import { toast, ToastContainer } from "react-toastify";
 const API_BASE_URL = "http://localhost:5000/api/instantpay";
 
 export default function FastagForm({ categoryKey }) {
-    const router = useRouter();
+    // const router = useRouter();
 
-    const [tokan, settoken] = useState()
-    useEffect(() => {
-        const tokenn = localStorage.getItem("token")
-        if (tokenn) {
-            settoken(tokenn)
-        } else {
-            router.push("login")
-        }
-    }, [])
+    // const [tokan, settoken] = useState()
+    // useEffect(() => {
+    //     const tokenn = localStorage.getItem("token")
+    //     if (tokenn) {
+    //         settoken(tokenn)
+    //     } else {
+    //         router.push("login")
+    //     }
+    // }, [])
     const [providers, setProviders] = useState([]);
     const [loading, setLoading] = useState(false);
     const [fetchingBill, setFetchingBill] = useState(false);
@@ -682,7 +682,7 @@ export default function FastagForm({ categoryKey }) {
     };
 
     return (
-        <section className="py-5 px-4 md:px-0 max-w-7xl mx-auto">
+        <section className="py-5 px-4 md:px-0 max-w-6xl mx-auto">
             <ToastContainer position="top-center" />
             <div className="grid md:grid-cols-2">
                 <div className="">
@@ -691,8 +691,8 @@ export default function FastagForm({ categoryKey }) {
                         <span className="text-[#00186b] ">FASTag Bill </span>
                     </h2>
                     <Image
-                        className=""
-                        src="/user/bill.jpg"
+                        className="rounded-xl shadow-xl md:mt-8"
+                        src="/image/billpay.jpg"
                         width={500}
                         height={600}
                         alt="FASTag bill payment"

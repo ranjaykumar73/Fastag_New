@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 
 export default function VisionMissionSection() {
   return (
-    <section className="relative bg-[#120A25] text-white py-10  overflow-hidden ">
-      <div className="max-w-7xl px-4 mx-auto">
+    <section className="relative bg-orange-100 text-gray-900 py-10  overflow-hidden ">
+      <div className="max-w-6xl mx-auto">
         <div className="flex justify-between ">
           <div className="col-lg-9">
             {/* Small Tag */}
@@ -19,7 +19,7 @@ export default function VisionMissionSection() {
               className="flex items-center gap-2 mb-4"
             >
               <div className="w-3 h-3 rounded-full bg-[#fa9404]" />
-              <span className="text-sm font-medium text-gray-300 uppercase tracking-widest">
+              <span className="text-sm font-medium text-gray-500 uppercase tracking-widest">
                 About FASTag & E-Challan
               </span>
             </motion.div>
@@ -42,7 +42,7 @@ export default function VisionMissionSection() {
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
-              className="text-gray-400 max-w-3xl mb-12 leading-relaxed"
+              className="text-gray-600 max-w-3xl mb-12 leading-relaxed"
             >
               We provide seamless FASTag recharge, instant challan checking,
               and secure online fine payments — all on one trusted platform.
@@ -68,8 +68,8 @@ export default function VisionMissionSection() {
           <div
             className="p-6 rounded-2xl border border-gray-600 hover:border-[#e87e15] transition-all md:h-50"
           >
-            <h3 className="text-2xl font-bold mb-3 text-white">OUR VISION</h3>
-            <p className="text-gray-400 text-sm leading-relaxed">
+            <h3 className="text-2xl font-bold mb-3 text-gray-900">OUR VISION</h3>
+            <p className="text-gray-600 text-sm leading-relaxed">
               To make FASTag recharge and E-Challan management simpler,
               trustworthy, and accessible for every vehicle owner across the country,
               ensuring smooth and stress-free travel.
@@ -80,8 +80,8 @@ export default function VisionMissionSection() {
           <div
             className="p-6 rounded-2xl border border-gray-600 hover:border-[#e87e15] transition-all md:h-50"
           >
-            <h3 className="text-2xl font-bold mb-3 text-white">OUR MISSION</h3>
-            <p className="text-gray-400 text-sm leading-relaxed">
+            <h3 className="text-2xl font-bold mb-3 text-gray-900">OUR MISSION</h3>
+            <p className="text-gray-600 text-sm leading-relaxed">
               Our mission is to offer fast, accurate, and secure FASTag and
               challan services with complete transparency, helping users save
               time, avoid penalties, and enjoy hassle-free road journeys.

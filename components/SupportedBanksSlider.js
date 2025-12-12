@@ -17,7 +17,7 @@ export default function SupportedBanksSlider() {
     return (
         <>
             <section className="bg-white py-16">
-                <div className="max-w-7xl mx-auto px-4">
+                <div className="max-w-6xl mx-auto">
                     {/* Header */}
                     <div className="flex items-center justify-between gap-4 mb-8">
                         <div>

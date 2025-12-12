@@ -6,10 +6,10 @@ export default function CTASectionCombined() {
   return (
     <section className="relative flex items-center justify-center text-white my-4">
       <Image
-        src="/user/car4.jpg"
+        src="/image/cta-bg.jpg"
         alt="Background"
         fill
-        className="object-cover object-bottom"
+        className="object-cover object-center"
         priority
       />
 

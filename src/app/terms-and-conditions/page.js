@@ -193,7 +193,7 @@ const sectionRefs = useRef([]);
             })}
 
             {/* FAQ */}
-            <div className="bg-white p-8 rounded-2xl shadow-sm mt-10">
+            <div className="bg-white p-8 max-w-6xl rounded-2xl shadow-sm mt-10">
               <h3 className="text-xl font-bold text-gray-800 mb-6 flex items-center">
                 <FaQuestionCircle className="w-5 h-5 mr-2 text-[#0060C9]" />
                 Frequently Asked Questions
