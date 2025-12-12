@@ -175,6 +175,7 @@ export default function BlogsSection() {
         <>
           <div className="grid md:grid-cols-3 gap-10">
             {blogs.slice(0, 3).map((blog) => (
+              
               <div
                 key={blog._id}
                 className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300"
@@ -182,7 +183,8 @@ export default function BlogsSection() {
                 <Link href={`/blog/${blog.slug}`}>
                   <div className="overflow-hidden relative h-56">
                     <Image
-                      src={getImageUrl(blog.thumbnail || blog.thumbnailUrl)}
+                      // src={getImageUrl(blog.thumbnail || blog.thumbnailUrl)}
+                      src={blog.thumbnailUrl}
                       alt={blog.title}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-500"

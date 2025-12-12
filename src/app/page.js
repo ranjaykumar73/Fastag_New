@@ -4,6 +4,7 @@ import Whyus from "../../components/HowitsWork";
 import SupportedBanksSlider from "../../components/SupportedBanksSlider";
 import TestimonialSlider from "../../components/Testimonials";
 import CTASectionCombined from "../../components/about/cta";
+import BlogsSection from "../../components/BlogSection";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
          <HomePage />
          <ServicesSection />
          <Whyus />
+         <BlogsSection />
          <SupportedBanksSlider />
          <TestimonialSlider />
          <CTASectionCombined />

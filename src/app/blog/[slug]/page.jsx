@@ -121,7 +121,8 @@ export default function BlogPostPage() {
       {/* HERO SECTION */}
       <div className="relative h-[50vh] md:h-[75vh]">
         <Image
-          src={getImageUrl(post.thumbnail || post.thumbnailUrl)}
+        //   src={getImageUrl(post.thumbnail || post.thumbnailUrl)}
+          src={post.thumbnailUrl}
           alt={post.title}
           fill
           className="object-cover"
@@ -199,7 +200,8 @@ export default function BlogPostPage() {
                       className="group relative min-h-[300px] rounded-2xl overflow-hidden"
                     >
                       <Image
-                        src={getImageUrl(related.thumbnail || related.thumbnailUrl)}
+                        // src={getImageUrl(related.thumbnail || related.thumbnailUrl)}
+                        src={related.thumbnailUrl}
                         fill
                         alt={related.title}
                         className="object-cover group-hover:scale-105 transition-all duration-500"
