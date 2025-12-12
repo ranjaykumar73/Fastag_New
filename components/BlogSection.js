@@ -175,6 +175,7 @@ export default function BlogsSection() {
         <>
           <div className="grid md:grid-cols-3 gap-10">
             {blogs.slice(0, 3).map((blog) => (
+              
               <div
                 key={blog._id}
                 className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300"
