@@ -175,12 +175,12 @@ export default function Header() {
                   >
                     Login
                   </Link>
-                  <Link
+                  {/* <Link
                     href="/register"
                     className="px-5 py-2 rounded-full bg-yellow-450 bg-gradient-to-r from-yellow-400 to-yellow-500 text-white hover:brightness-95 transition-all font-semibold text-sm shadow-md"
                   >
                     Register
-                  </Link>
+                  </Link> */}
                 </div>
               )}
             </div>
@@ -277,13 +277,13 @@ export default function Header() {
                     >
                       Login
                     </Link>
-                    <Link
+                    {/* <Link
                       href="/register"
                       className="text-gray-800 font-medium py-2 px-3 rounded-lg hover:bg-blue-50"
                       onClick={() => setOpen(false)}
                     >
                       Register
-                    </Link>
+                    </Link> */}
                   </>
                 )}
               </div>
