@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 import { FaArrowRight } from "react-icons/fa6";
 import { FaCreditCard, FaRupeeSign, FaBolt } from "react-icons/fa";
 import { MdDirectionsCar, MdSearch } from "react-icons/md";
+import FastagForm from "./FastagForm";
 
 const slides = [
     {
@@ -139,7 +140,7 @@ export default function Homepage() {
                                 {/* e-Challan Form */}
                                 {activeTab === 'echallan' && (
                                     <div>
-                                        <label htmlFor="vehicleNo" className="block text-xs sm:text-sm font-semibold text-gray-700 mb-3 uppercase tracking-widest">
+                                        {/* <label htmlFor="vehicleNo" className="block text-xs sm:text-sm font-semibold text-gray-700 mb-3 uppercase tracking-widest">
                                             Vehicle Registration Number
                                         </label>
                                         <div className="relative">
@@ -160,14 +161,15 @@ export default function Homepage() {
                                         <p className="text-xs text-gray-500 mt-2 flex items-center gap-1">
                                             <span className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse" />
                                             Real-time data from traffic authorities
-                                        </p>
+                                        </p> */}
+                                        <FastagForm categoryKey={"C31"} />
                                     </div>
                                 )}
 
                                 {/* FASTag Form */}
                                 {activeTab === 'fastag' && (
                                     <div>
-                                        <label htmlFor="fastagNo" className="block text-xs sm:text-sm font-semibold text-gray-700 mb-3 uppercase tracking-widest">
+                                        {/* <label htmlFor="fastagNo" className="block text-xs sm:text-sm font-semibold text-gray-700 mb-3 uppercase tracking-widest">
                                             FASTag ID / Wallet Number
                                         </label>
                                         <div className="relative">
@@ -194,7 +196,8 @@ export default function Homepage() {
                                                 <FaBolt className="w-3 h-3 text-green-500" />
                                                 <span>Instant activation</span>
                                             </div>
-                                        </div>
+                                        </div> */}
+                                        <FastagForm categoryKey={"C10"} />
                                     </div>
                                 )}
 
